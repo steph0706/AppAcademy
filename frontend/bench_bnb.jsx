@@ -1,10 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 import Root from './components/root';
 import configureStore from './store/store';
-
-    console.log("he");
 
 document.addEventListener('DOMContentLoaded', () => {
     const store = configureStore();

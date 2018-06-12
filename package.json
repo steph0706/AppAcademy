@@ -1,8 +1,35 @@
 {
-  "name": "bnb",
-  "private": true,
+  "name": "AppAcademy",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steph0706/AppAcademy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steph0706/AppAcademy/issues"
+  },
+  "homepage": "https://github.com/steph0706/AppAcademy#readme",
   "dependencies": {
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
-  }
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {}
 }
